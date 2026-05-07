@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timluy.github.io/sitemap.xml

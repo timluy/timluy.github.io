@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Luyobya Timothy — Cybersecurity Insights</title>
+  <meta name="description" content="Cybersecurity articles, tips, and insights from Luyobya Timothy — Uganda's ethical hacker and cybersecurity trainer." />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg: #0a192f; --bg2: #112240; --accent: #64ffda; --text: #ccd6f6; --muted: #8892b0; --card: #1d2d50; --border: rgba(100,255,218,0.15); }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Exo 2', sans-serif; line-height: 1.7; }
+    nav {
+      position: sticky; top: 0; background: rgba(10,25,47,0.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border); padding: 0 2rem; height: 60px;
+      display: flex; align-items: center; justify-content: space-between; z-index: 100;
+    }
+    .nav-logo { font-family: 'Share Tech Mono', monospace; color: var(--accent); text-decoration: none; font-size: 1rem; }
+    .nav-home { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .nav-home:hover { color: var(--accent); }
+    .hero { padding: 5rem 2rem 3rem; text-align: center; background: radial-gradient(ellipse at 50% 0%, rgba(100,255,218,0.05), transparent 60%); }
+    .tag { font-family: 'Share Tech Mono', monospace; color: var(--accent); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); color: #e6f1ff; font-weight: 800; margin-bottom: 1rem; }
+    .subtitle { color: var(--muted); max-width: 500px; margin: 0 auto; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+    .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .blog-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      overflow: hidden; transition: transform 0.3s, border-color 0.3s;
+    }
+    .blog-card:hover { transform: translateY(-5px); border-color: var(--accent); }
+    .card-img {
+      height: 160px; background: var(--bg2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 4rem; border-bottom: 1px solid var(--border);
+    }
+    .card-body { padding: 1.5rem; }
+    .card-meta { display: flex; gap: 1rem; margin-bottom: 0.75rem; }
+    .card-date { font-family: 'Share Tech Mono', monospace; color: var(--muted); font-size: 0.75rem; }
+    .card-category {
+      font-family: 'Share Tech Mono', monospace; font-size: 0.72rem;
+      color: var(--accent); background: rgba(100,255,218,0.08);
+      padding: 0.1rem 0.5rem; border-radius: 20px; border: 1px solid rgba(100,255,218,0.2);
+    }
+    .card-title { color: #e6f1ff; font-weight: 700; font-size: 1.05rem; margin-bottom: 0.6rem; }
+    .card-excerpt { color: var(--muted); font-size: 0.88rem; margin-bottom: 1.25rem; }
+    .card-link {
+      color: var(--accent); font-size: 0.82rem; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      border: 1px solid var(--accent); padding: 0.4rem 0.9rem;
+      border-radius: 4px; transition: background 0.2s;
+    }
+    .card-link:hover { background: rgba(100,255,218,0.1); }
+    footer { text-align: center; padding: 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="/">TIM_LUY</a>
+    <a class="nav-home" href="/">← Back to Portfolio</a>
+  </nav>
+
+  <div class="hero">
+    <p class="tag">// CYBERSECURITY INSIGHTS</p>
+    <h1>Blog & Articles</h1>
+    <p class="subtitle">Thoughts on cybersecurity, ethical hacking, and building a safer digital Uganda.</p>
+  </div>
+
+  <div class="container">
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <div class="card-img">🛡️</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">May 2026</span>
+            <span class="card-category">Awareness</span>
+          </div>
+          <div class="card-title">5 Cybersecurity Threats Every Ugandan Business Should Know</div>
+          <div class="card-excerpt">From phishing emails to ransomware, discover the most common cyber threats targeting small businesses in Uganda and practical defenses.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: Cybersecurity Threats Uganda">Request Full Article →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="card-img">🐉</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">April 2026</span>
+            <span class="card-category">Lab Setup</span>
+          </div>
+          <div class="card-title">How I Set Up a Free Penetration Testing Lab at Home</div>
+          <div class="card-excerpt">Step-by-step walkthrough of building a virtual hacking lab with VirtualBox, Kali Linux, and Metasploitable — entirely free.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: Home Lab Setup">Request Full Article →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="card-img">🌍</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">March 2026</span>
+            <span class="card-category">Career</span>
+          </div>
+          <div class="card-title">Why Uganda Needs More Ethical Hackers — And How to Become One</div>
+          <div class="card-excerpt">The cybersecurity skills gap in East Africa is growing. I break down why ethical hacking is the right career path and the resources to get started.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: Uganda Ethical Hackers">Request Full Article →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="card-img">📡</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">Feb 2026</span>
+            <span class="card-category">Wi-Fi Security</span>
+          </div>
+          <div class="card-title">Is Your Wi-Fi Router a Security Risk? A Ugandan Perspective</div>
+          <div class="card-excerpt">Most home and office routers in Uganda ship with default credentials and outdated firmware. Here's how to check yours and fix the gaps.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: Wi-Fi Security">Request Full Article →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="card-img">🔑</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">Jan 2026</span>
+            <span class="card-category">Passwords</span>
+          </div>
+          <div class="card-title">The Password Habits That Get Ugandans Hacked</div>
+          <div class="card-excerpt">Simple passwords, password reuse, and ignoring 2FA — I analyzed the most common mistakes and how attackers exploit them.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: Password Habits">Request Full Article →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="card-img">💼</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-date">Dec 2025</span>
+            <span class="card-category">Training</span>
+          </div>
+          <div class="card-title">TIMLUY TECH: Teaching Cybersecurity for UGX 10,000</div>
+          <div class="card-excerpt">Why I launched affordable cybersecurity training for Ugandan youth, and what we cover in each tier — from beginner to elite professional.</div>
+          <a class="card-link" href="mailto:timluy155@gmail.com?subject=Blog Request: TIMLUY TECH">Request Full Article →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Luyobya Timothy | <a href="/">Portfolio</a> | <a href="mailto:timluy155@gmail.com">Contact</a></p>
+  </footer>
+</body>
+</html>
